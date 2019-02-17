@@ -1,0 +1,9 @@
+body{
+	text-align: center;
+}
+
+form , ul {
+	font-size: 20px;
+	color : #253031;
+	background-color: #BCAB79;
+}

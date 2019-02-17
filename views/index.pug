@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		title File Metadata
+		link(href="/style.css" rel="stylesheet" type="text/css")
+	body
+		h1 File Metadata Microservice
+		form(action="/upload" method="post" enctype="multipart/form-data")
+			lable(for="image")
+			input(type="file" name="image" id="image")
+			input(type="Submit" value="Submit")
+		ul
+			li Browse file from your drive
+			li Return <code>{ "name" : "...", "size" : "...(bytes)" }</code>

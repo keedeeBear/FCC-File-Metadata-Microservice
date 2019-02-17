@@ -1,0 +1,22 @@
+{
+  "name": "fcc-file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "The File Metadata Microservice from FCC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keedeeBear/FCC-File-Metadata-Microservice.git"
+  },
+  "author": "Antonia Gherghel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keedeeBear/FCC-File-Metadata-Microservice/issues"
+  },
+  "homepage": "https://github.com/keedeeBear/FCC-File-Metadata-Microservice#readme",
+  "dependencies": {
+    "pug": "^2.0.3"
+  }
+}
