@@ -8,7 +8,7 @@ var app    = express();
 var upload = multer({dest:(path.join(__dirname,"/uploads"))});
 var porty  = process.env.PORT || 8080;
 //redirect home-page
-var undone = "<p>Need to upload <a href='https://mgjean-meta.glitch.me/'>back</a><p>"   
+var undone = "<p>Need to upload?</p>"   
 
 app.set("view engine","pug");                                          
 // set templates directory
